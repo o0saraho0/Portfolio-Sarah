@@ -2479,6 +2479,7 @@ input[type="radio"]:focus + label:before {
 .image img {
   border-radius: 8px;
   display: block;
+  aspect-ratio: 1/1;
 }
 
 .image.left,
@@ -2950,6 +2951,13 @@ table.alt tbody tr td {
 
   .features li {
     width: 30%;
+    margin-left: 0;
+    margin-top: 2em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .features li {
+    width: 50%;
     margin-left: 0;
     margin-top: 2em;
   }
@@ -3760,4 +3768,11 @@ body.is-preload #header.alt .logo {
     width: 90%;
     margin-bottom: 2em;
   }
+}
+
+.education img {
+  width: 7em;
+  height: auto;
+  aspect-ratio: 3 / 1;
+  margin-right: 2em;
 }
