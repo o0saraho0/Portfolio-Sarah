@@ -2954,12 +2954,34 @@ table.alt tbody tr td {
     margin-left: 0;
     margin-top: 2em;
   }
+
+  .features li img {
+    width: 7em;
+    height: auto;
+    aspect-ratio: 3 /1;
+    transition: transform 0.3s ease;
+  }
+
+  .features li img:hover {
+    transform: scale(1.1);
+  }
 }
 @media screen and (max-width: 600px) {
   .features li {
     width: 50%;
     margin-left: 0;
     margin-top: 2em;
+  }
+
+  .features li img {
+    width: 7em;
+    height: auto;
+    aspect-ratio: 3 /1;
+    transition: transform 0.3s ease;
+  }
+
+  .features li img:hover {
+    transform: scale(1.1);
   }
 }
 
@@ -3763,16 +3785,20 @@ body.is-preload #header.alt .logo {
   margin: 0px auto;
 }
 
-@media screen and (max-width: 980px) {
-  #cta p {
-    width: 90%;
-    margin-bottom: 2em;
-  }
-}
-
 .education img {
   width: 7em;
   height: auto;
   aspect-ratio: 3 / 1;
   margin-right: 2em;
+}
+
+@media screen and (max-width: 980px) {
+  #cta p {
+    width: 90%;
+    margin-bottom: 2em;
+  }
+
+  .education {
+    margin: 0px auto;
+  }
 }
