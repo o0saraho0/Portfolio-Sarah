@@ -2933,9 +2933,9 @@ table.alt tbody tr td {
 }
 
 .features li img {
-  width: 7em;
-  height: auto;
-  aspect-ratio: 3 /1;
+  min-width: 6.5em;
+  max-width: 7.5em;
+  height: 2em;
   transition: transform 0.3s ease;
 }
 
@@ -3703,8 +3703,6 @@ body.is-preload #header.alt .logo {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 2em;
-  width: calc(100% + 2em);
-  margin: 0 0 3em -2em;
 }
 
 #footer > * {
@@ -3743,9 +3741,7 @@ body.is-preload #header.alt .logo {
 }
 
 .education img {
-  width: 7em;
-  height: auto;
-  aspect-ratio: 3 / 1;
+  height: 2em;
   margin-right: 2em;
 }
 
