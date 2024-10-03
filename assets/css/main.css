@@ -2790,15 +2790,12 @@ footer.major {
   margin-top: 3em;
 }
 
-
 header img {
   width: 100%;
   border-radius: 0.25em;
   opacity: 0.9;
   margin-bottom: 2rem;
 }
-
-
 
 @media screen and (max-width: 736px) {
   header.major {
@@ -3029,7 +3026,8 @@ table.alt tbody tr td {
   margin-left: 4em;
   padding: 0.65em;
   border-radius: 100%;
-  border: solid 1px;
+  /* border: solid 1px; */
+  text-align: center;
 }
 
 .spotlight .image img {
