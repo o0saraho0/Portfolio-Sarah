@@ -2479,7 +2479,7 @@ input[type="radio"]:focus + label:before {
 .image img {
   border-radius: 8px;
   display: block;
-  aspect-ratio: 1/1;
+  /* aspect-ratio: 1/1; */
 }
 
 .image.left,
@@ -3032,7 +3032,6 @@ table.alt tbody tr td {
 
 .spotlight .image img {
   display: block;
-  border-radius: 100%;
   width: 16em;
 }
 
