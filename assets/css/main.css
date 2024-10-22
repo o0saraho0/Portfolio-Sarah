@@ -2794,7 +2794,13 @@ header img {
   width: 100%;
   border-radius: 0.25em;
   opacity: 0.9;
-  margin-bottom: 2rem;
+}
+
+.music {
+  display: flex;
+  justify-content: end;
+  margin: 0.5rem 0 1rem;
+  
 }
 
 @media screen and (max-width: 736px) {

@@ -29,6 +29,13 @@
         <img src="/images/banner.gif" alt="banner" />
       </header>
 
+      <div class="music">
+        <audio id="background-music" controls loop>
+          <source src="/images/Lovely.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
       <!-- Nav -->
       <nav id="nav">
         <ul>
@@ -226,7 +233,7 @@
 
           <div class="project">
             <a href="https://walnuteducation.com/">
-              <video width="100%" controls>
+              <video width="100%" controls muted>
                 <source src="/images/WalnutEducation.mp4" type="video/mp4" />
                 Your browser does not support the video.
               </video>
@@ -518,5 +525,11 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const audio = document.getElementById("background-music");
+        audio.volume = 0.1;
+      });
+    </script>
   </body>
 </html>
